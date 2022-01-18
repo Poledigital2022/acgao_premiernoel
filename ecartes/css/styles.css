@@ -1,0 +1,88 @@
+*{outline: 0px;}
+
+.footertext a{ text-decoration: none !important;color: #ffffff; }
+.footertext a:hover{ ;color: #5c734d; }
+ button{
+ 	cursor: pointer;
+ }
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/myriadpro.ttf);
+}
+@font-face{
+	font-family: "Junction-r";
+	src: url(../fonts/Familiar_Pro-Bold-webfont.eot);
+	src: url(../fonts/Familiar_Pro-Bold-webfont.ttf);
+	src: url(../fonts/Familiar_Pro-Bold-webfont.html);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: mySecondFontBold;
+    src: url(../fonts/myriadproBold.ttf);
+}
+.form-check-label{
+	font-size: 13px; 
+	line-height: normal;
+}
+.modal-body p{text-align: justify;}
+.MerciCenter{
+	padding-top: 10px;
+	color: #000000;
+	text-align: center;
+	margin: 0 auto;
+}
+.goback{
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+.typeFont{
+	font-family: mySecondFont;
+}
+.text p{ 
+	text-align: center;
+	 font-family: mySecondFont;
+	  font-size: 14px; 
+	}
+.text{
+	padding-top: 30px;
+}
+.footer{
+	background-color:#1c1c1c;
+	
+	padding-top: 30px;
+}
+.footer p{
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+
+}
+.section1{height: 30px;}
+.logo{
+	position: absolute;
+	margin-left: 50px;
+}
+.card{margin: 0 auto;}
+
+@media only screen and (max-width:480px) {
+	.logo{position: absolute;
+		margin-left: 10px;
+		 width: 40px;
+		 height: 50px;}
+
+		 .col-md-4{
+			margin-bottom: 20px;
+			}
+}
+@media only screen and (max-width:768px) { 
+.logo{position: absolute;
+	margin-left: 30px;
+	 width: 40px;
+	 height: 50px;}
+}
+// Medium devices (tablets, 768px and up)
+
+
+// Large devices (desktops, 992px and up)
+@media only screen and (max-width:992px) {  }
